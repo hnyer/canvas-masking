@@ -1,5 +1,6 @@
 图片遮罩效果 ， 用globalCompositeOperation 属性实现。  
  
+![](https://github.com/hnyer/canvas-masking/blob/master/demopic.png "")
 
 This is a simple demo showing you how to use canvas to mask images in the browser. This can also be done with SVG, but there are a few compatibility issues. CSS filters, I guess, will sooner or later also do the same thing. For now though, all you need to do is add the `canvasmask.js` script and add a class of `mask` to each image you want to mask. You also need to provide a PNG file as the mask using the `data-mask` attribute. For example: 
 
